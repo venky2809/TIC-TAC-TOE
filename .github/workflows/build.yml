@@ -9,7 +9,7 @@ on:
 jobs:
   build:
     name: Build
-    runs-on: [venky]
+    runs-on: [Linux]
     steps:
       - uses: actions/checkout@v2
         with:
